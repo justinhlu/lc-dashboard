@@ -1,0 +1,10 @@
+node_modules/
+*.log
+.DS_Store
+
+# Local backup snapshots written by the dashboard
+*.bak
+
+# If anyone runs the dashboard from inside the repo, don't commit their personal data
+leetcode-attempts.json
+leetcode-attempts.json.bak
