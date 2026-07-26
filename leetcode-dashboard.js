@@ -1804,8 +1804,19 @@ setInterval(() => {
 </body></html>`;
 }
 
+const AUTH_USER = process.env.DASHBOARD_USER;
+const AUTH_PASS = process.env.DASHBOARD_PASS;
+
 const server = http.createServer((req, res) => {
   if (req.url === '/healthz') { res.writeHead(200); return res.end('ok'); }
+  if (AUTH_USER && AUTH_PASS) {
+    const [type, encoded = ''] = (req.headers['authorization'] || '').split(' ');
+    const [user, pass] = Buffer.from(encoded, 'base64').toString().split(':');
+    if (type !== 'Basic' || user !== AUTH_USER || pass !== AUTH_PASS) {
+      res.writeHead(401, { 'WWW-Authenticate': 'Basic realm="LeetCode Dashboard"' });
+      return res.end('Unauthorized');
+    }
+  }
   if (req.url === '/favicon.svg' || req.url.startsWith('/favicon.svg?')) {
     res.writeHead(200, { 'Content-Type': 'image/svg+xml; charset=utf-8', 'Cache-Control': 'no-cache' });
     return res.end(FAVICON_SVG);
