@@ -1868,7 +1868,7 @@ function recomputeAllDueDates() {
   }
 }
 
-server.listen(PORT, '127.0.0.1', () => {
+server.listen(PORT, '0.0.0.0', () => {
   recomputeAllDueDates();
   console.log(`LeetCode dashboard → http://localhost:${PORT}`);
 });
