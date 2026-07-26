@@ -1,0 +1,2272 @@
+{
+  "Product of Array Except Self": {
+    "lastDate": "2026-06-10",
+    "solo": "Y",
+    "status": "fluent",
+    "time": "2",
+    "dueDate": "2026-08-09",
+    "history": [
+      {
+        "date": "2026-04-18",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "5"
+      },
+      {
+        "date": "2026-05-12",
+        "solo": "H",
+        "status": "revisit",
+        "time": "14"
+      },
+      {
+        "date": "2026-05-13",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "2"
+      },
+      {
+        "date": "2026-05-20",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "2"
+      },
+      {
+        "date": "2026-06-10",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "2"
+      }
+    ]
+  },
+  "Valid Palindrome": {
+    "lastDate": "2026-06-03",
+    "solo": "Y",
+    "status": "fluent",
+    "time": "4",
+    "dueDate": "2026-08-02",
+    "history": [
+      {
+        "date": "2026-04-18",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "5.27"
+      },
+      {
+        "date": "2026-05-12",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "4"
+      },
+      {
+        "date": "2026-06-03",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "4"
+      }
+    ]
+  },
+  "3Sum": {
+    "lastDate": "2026-07-26",
+    "solo": "Y",
+    "status": "fluent",
+    "time": "5",
+    "dueDate": "2026-08-25",
+    "history": [
+      {
+        "date": "2026-04-19",
+        "solo": "Y",
+        "status": "revisit",
+        "time": "15.40"
+      },
+      {
+        "date": "2026-04-23",
+        "solo": "H",
+        "status": "revisit",
+        "time": "18"
+      },
+      {
+        "date": "2026-04-25",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "7"
+      },
+      {
+        "date": "2026-04-25",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "7"
+      },
+      {
+        "date": "2026-05-17",
+        "solo": "H",
+        "status": "revisit",
+        "time": "20"
+      },
+      {
+        "date": "2026-05-18",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "10"
+      },
+      {
+        "date": "2026-05-25",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "10"
+      },
+      {
+        "date": "2026-06-16",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "5"
+      },
+      {
+        "date": "2026-07-26",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "5"
+      }
+    ]
+  },
+  "Container With Most Water": {
+    "lastDate": "2026-06-03",
+    "solo": "Y",
+    "status": "fluent",
+    "time": "5",
+    "dueDate": "2026-08-02",
+    "history": [
+      {
+        "date": "2026-04-19",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "5"
+      },
+      {
+        "date": "2026-05-12",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "6"
+      },
+      {
+        "date": "2026-06-03",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "5"
+      }
+    ]
+  },
+  "Linked List Cycle": {
+    "lastDate": "2026-06-04",
+    "solo": "Y",
+    "status": "fluent",
+    "time": "1",
+    "dueDate": "2026-08-03",
+    "history": [
+      {
+        "date": "2026-04-19",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "3"
+      },
+      {
+        "date": "2026-05-12",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "2"
+      },
+      {
+        "date": "2026-06-04",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "1"
+      }
+    ]
+  },
+  "__test__": {
+    "history": []
+  },
+  "Trapping Rain Water": {
+    "lastDate": "2026-06-15",
+    "solo": "Y",
+    "status": "fluent",
+    "time": "3",
+    "dueDate": "2026-08-14",
+    "history": [
+      {
+        "date": "2026-04-21",
+        "solo": "N",
+        "status": "revisit",
+        "time": "40"
+      },
+      {
+        "date": "2026-04-22",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "5"
+      },
+      {
+        "date": "2026-05-13",
+        "solo": "H",
+        "status": "revisit",
+        "time": "5"
+      },
+      {
+        "date": "2026-05-17",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "10"
+      },
+      {
+        "date": "2026-05-24",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "10"
+      },
+      {
+        "date": "2026-06-15",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "3"
+      }
+    ],
+    "notes": "rmb left and right are not boundaries"
+  },
+  "Subarray Sum Equals K": {
+    "lastDate": "2026-07-19",
+    "solo": "H",
+    "status": "revisit",
+    "time": "5",
+    "dueDate": "2026-07-21",
+    "history": [
+      {
+        "date": "2026-04-21",
+        "solo": "N",
+        "status": "revisit",
+        "time": "40"
+      },
+      {
+        "date": "2026-04-22",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "10"
+      },
+      {
+        "date": "2026-05-13",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "13"
+      },
+      {
+        "date": "2026-05-13",
+        "solo": "H",
+        "status": "revisit",
+        "time": "10"
+      },
+      {
+        "date": "2026-05-15",
+        "solo": "H",
+        "status": "revisit",
+        "time": "10"
+      },
+      {
+        "date": "2026-05-17",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "5"
+      },
+      {
+        "date": "2026-05-24",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "5"
+      },
+      {
+        "date": "2026-06-15",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "5"
+      },
+      {
+        "date": "2026-07-19",
+        "solo": "H",
+        "status": "revisit",
+        "time": "5"
+      }
+    ]
+  },
+  "Find the Duplicate Number": {
+    "lastDate": "2026-06-21",
+    "solo": "Y",
+    "status": "fluent",
+    "time": "4",
+    "dueDate": "2026-08-20",
+    "history": [
+      {
+        "date": "2026-04-22",
+        "solo": "N",
+        "status": "revisit",
+        "time": ""
+      },
+      {
+        "date": "2026-04-22",
+        "solo": "N",
+        "status": "revisit",
+        "time": "17"
+      },
+      {
+        "date": "2026-04-23",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "9"
+      },
+      {
+        "date": "2026-04-30",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "4"
+      },
+      {
+        "date": "2026-05-22",
+        "solo": "H",
+        "status": "revisit",
+        "time": "4"
+      },
+      {
+        "date": "2026-05-24",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "5"
+      },
+      {
+        "date": "2026-05-31",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "3"
+      },
+      {
+        "date": "2026-06-21",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "4"
+      }
+    ]
+  },
+  "Best Time to Buy and Sell Stock": {
+    "lastDate": "2026-05-22",
+    "solo": "Y",
+    "status": "fluent",
+    "time": "2",
+    "dueDate": "2026-07-21",
+    "history": [
+      {
+        "date": "2026-04-23",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "7.50"
+      },
+      {
+        "date": "2026-04-30",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "4"
+      },
+      {
+        "date": "2026-05-22",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "2"
+      }
+    ]
+  },
+  "Longest Substring Without Repeating Chars": {
+    "lastDate": "2026-07-01",
+    "solo": "Y",
+    "status": "fluent",
+    "time": "4",
+    "dueDate": "2026-07-22",
+    "history": [
+      {
+        "date": "2026-04-23",
+        "solo": "N",
+        "status": "revisit",
+        "time": "25"
+      },
+      {
+        "date": "2026-04-24",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "10"
+      },
+      {
+        "date": "2026-05-01",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "17"
+      },
+      {
+        "date": "2026-05-22",
+        "solo": "H",
+        "status": "fluent",
+        "time": "17"
+      },
+      {
+        "date": "2026-06-22",
+        "solo": "H",
+        "status": "revisit",
+        "time": "11"
+      },
+      {
+        "date": "2026-06-24",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "3"
+      },
+      {
+        "date": "2026-07-01",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "4"
+      }
+    ],
+    "notes": "Use a set and remove s[l] until s[r] can be added"
+  },
+  "Longest Repeating Character Replacement": {
+    "lastDate": "2026-06-06",
+    "solo": "Y",
+    "status": "fluent",
+    "time": "5",
+    "dueDate": "2026-08-05",
+    "history": [
+      {
+        "date": "2026-04-24",
+        "solo": "N",
+        "status": "revisit",
+        "time": "17"
+      },
+      {
+        "date": "2026-04-25",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "5"
+      },
+      {
+        "date": "2026-05-02",
+        "solo": "H",
+        "status": "revisit",
+        "time": "21"
+      },
+      {
+        "date": "2026-05-04",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "4"
+      },
+      {
+        "date": "2026-05-13",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "13"
+      },
+      {
+        "date": "2026-06-06",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "5"
+      }
+    ],
+    "notes": "window - max frequency"
+  },
+  "Permutation in String": {
+    "lastDate": "2026-05-25",
+    "solo": "Y",
+    "status": "fluent",
+    "time": "13",
+    "dueDate": "2026-07-24",
+    "history": [
+      {
+        "date": "2026-04-24",
+        "solo": "N",
+        "status": "revisit",
+        "time": ""
+      },
+      {
+        "date": "2026-04-25",
+        "solo": "H",
+        "status": "revisit",
+        "time": "25"
+      },
+      {
+        "date": "2026-04-27",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "14"
+      },
+      {
+        "date": "2026-05-04",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "13"
+      },
+      {
+        "date": "2026-05-25",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "13"
+      }
+    ],
+    "notes": "test"
+  },
+  "Minimum Window Substring": {
+    "history": [
+      {
+        "date": "2026-04-26",
+        "solo": "N",
+        "status": "revisit",
+        "time": "19"
+      },
+      {
+        "date": "2026-04-28",
+        "solo": "H",
+        "status": "revisit",
+        "time": "19"
+      },
+      {
+        "date": "2026-04-30",
+        "solo": "Y",
+        "status": "revisit",
+        "time": "20"
+      },
+      {
+        "date": "2026-05-04",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "25"
+      },
+      {
+        "date": "2026-05-13",
+        "solo": "H",
+        "status": "revisit",
+        "time": "20"
+      },
+      {
+        "date": "2026-05-17",
+        "solo": "H",
+        "status": "revisit",
+        "time": "20"
+      },
+      {
+        "date": "2026-05-19",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "5"
+      },
+      {
+        "date": "2026-05-26",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "8"
+      },
+      {
+        "date": "2026-06-17",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "20"
+      }
+    ],
+    "lastDate": "2026-06-17",
+    "solo": "Y",
+    "status": "fluent",
+    "time": "20",
+    "dueDate": "2026-07-17"
+  },
+  "Sliding Window Maximum": {
+    "history": [
+      {
+        "date": "2026-04-28",
+        "solo": "N",
+        "status": "revisit",
+        "time": "20"
+      },
+      {
+        "date": "2026-04-29",
+        "solo": "Y",
+        "status": "revisit",
+        "time": "20"
+      },
+      {
+        "date": "2026-05-03",
+        "solo": "H",
+        "status": "revisit",
+        "time": "20"
+      },
+      {
+        "date": "2026-05-05",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "15"
+      },
+      {
+        "date": "2026-05-13",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "6"
+      },
+      {
+        "date": "2026-06-08",
+        "solo": "H",
+        "status": "revisit",
+        "time": "6"
+      },
+      {
+        "date": "2026-06-10",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "7"
+      },
+      {
+        "date": "2026-06-19",
+        "solo": "H",
+        "status": "revisit",
+        "time": "7"
+      },
+      {
+        "date": "2026-06-21",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "7"
+      },
+      {
+        "date": "2026-06-29",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "3"
+      }
+    ],
+    "lastDate": "2026-06-29",
+    "solo": "Y",
+    "status": "fluent",
+    "time": "3",
+    "dueDate": "2026-07-20",
+    "notes": "popleft if l is > than q left"
+  },
+  "Valid Parentheses": {
+    "history": [
+      {
+        "date": "2026-04-29",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "15"
+      },
+      {
+        "date": "2026-05-06",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "6"
+      },
+      {
+        "date": "2026-05-27",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "5"
+      },
+      {
+        "date": "2026-07-26",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "7"
+      }
+    ],
+    "lastDate": "2026-07-26",
+    "solo": "Y",
+    "status": "fluent",
+    "time": "7",
+    "dueDate": "2027-01-22"
+  },
+  "Min Stack": {
+    "history": [
+      {
+        "date": "2026-04-29",
+        "solo": "Y",
+        "status": "revisit",
+        "time": "14"
+      },
+      {
+        "date": "2026-05-03",
+        "solo": "H",
+        "status": "revisit",
+        "time": "14"
+      },
+      {
+        "date": "2026-05-05",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "11"
+      },
+      {
+        "date": "2026-05-12",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "2"
+      },
+      {
+        "date": "2026-06-04",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "2"
+      }
+    ],
+    "lastDate": "2026-06-04",
+    "solo": "Y",
+    "status": "fluent",
+    "time": "2",
+    "dueDate": "2026-08-03",
+    "notes": "Remember the minimum push trick!"
+  },
+  "Evaluate Reverse Polish Notation": {
+    "history": [
+      {
+        "date": "2026-04-30",
+        "solo": "H",
+        "status": "revisit",
+        "time": "20"
+      },
+      {
+        "date": "2026-05-02",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "5"
+      },
+      {
+        "date": "2026-05-12",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "4"
+      },
+      {
+        "date": "2026-06-04",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "4"
+      }
+    ],
+    "lastDate": "2026-06-04",
+    "solo": "Y",
+    "status": "fluent",
+    "time": "4",
+    "dueDate": "2026-08-03"
+  },
+  "Generate Parentheses": {
+    "history": [
+      {
+        "date": "2026-04-30",
+        "solo": "H",
+        "status": "revisit",
+        "time": "25"
+      },
+      {
+        "date": "2026-05-02",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "8"
+      },
+      {
+        "date": "2026-05-12",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "5"
+      },
+      {
+        "date": "2026-06-04",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "4"
+      }
+    ],
+    "lastDate": "2026-06-04",
+    "solo": "Y",
+    "status": "fluent",
+    "time": "4",
+    "dueDate": "2026-08-03"
+  },
+  "Daily Temperatures": {
+    "history": [
+      {
+        "date": "2026-05-01",
+        "solo": "H",
+        "status": "revisit",
+        "time": "9"
+      },
+      {
+        "date": "2026-05-03",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "8"
+      },
+      {
+        "date": "2026-05-12",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "5"
+      },
+      {
+        "date": "2026-06-04",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "6"
+      },
+      {
+        "date": "2026-07-07",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "6"
+      }
+    ],
+    "lastDate": "2026-07-07",
+    "solo": "Y",
+    "status": "fluent",
+    "time": "6",
+    "dueDate": "2026-08-06"
+  },
+  "Car Fleet": {
+    "history": [
+      {
+        "date": "2026-05-01",
+        "solo": "N",
+        "status": "revisit",
+        "time": "20"
+      },
+      {
+        "date": "2026-05-02",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "6"
+      },
+      {
+        "date": "2026-05-12",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "5"
+      },
+      {
+        "date": "2026-06-05",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "7"
+      }
+    ],
+    "notes": "Sort from front to back, then calculate time and if its less than or equal to previous time then merge",
+    "lastDate": "2026-06-05",
+    "solo": "Y",
+    "status": "fluent",
+    "time": "7",
+    "dueDate": "2026-08-04"
+  },
+  "Binary Search": {
+    "history": [
+      {
+        "date": "2026-05-01",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "11"
+      },
+      {
+        "date": "2026-05-08",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "1"
+      },
+      {
+        "date": "2026-05-29",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "1"
+      }
+    ],
+    "lastDate": "2026-05-29",
+    "solo": "Y",
+    "status": "fluent",
+    "time": "1",
+    "dueDate": "2026-07-28"
+  },
+  "Largest Rectangle in Histogram": {
+    "history": [
+      {
+        "date": "2026-05-02",
+        "solo": "N",
+        "status": "revisit",
+        "time": "35"
+      },
+      {
+        "date": "2026-05-03",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "7"
+      },
+      {
+        "date": "2026-05-12",
+        "solo": "H",
+        "status": "revisit",
+        "time": "15"
+      },
+      {
+        "date": "2026-05-14",
+        "solo": "H",
+        "status": "revisit",
+        "time": "20"
+      },
+      {
+        "date": "2026-05-17",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "20"
+      },
+      {
+        "date": "2026-05-24",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "15"
+      },
+      {
+        "date": "2026-06-16",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "12"
+      }
+    ],
+    "notes": "use stack and push back the start index when popping larger height vals.",
+    "lastDate": "2026-06-16",
+    "solo": "Y",
+    "status": "fluent",
+    "time": "12",
+    "dueDate": "2026-07-16"
+  },
+  "Search a 2D Matrix": {
+    "history": [
+      {
+        "date": "2026-05-03",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "15"
+      },
+      {
+        "date": "2026-05-12",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "5"
+      },
+      {
+        "date": "2026-06-05",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "4"
+      }
+    ],
+    "lastDate": "2026-06-05",
+    "solo": "Y",
+    "status": "fluent",
+    "time": "4",
+    "dueDate": "2026-08-04"
+  },
+  "Koko Eating Bananas": {
+    "history": [
+      {
+        "date": "2026-05-05",
+        "solo": "H",
+        "status": "revisit",
+        "time": "23"
+      },
+      {
+        "date": "2026-05-07",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "7"
+      },
+      {
+        "date": "2026-05-14",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "5"
+      },
+      {
+        "date": "2026-06-07",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "5"
+      },
+      {
+        "date": "2026-07-07",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "10"
+      }
+    ],
+    "lastDate": "2026-07-07",
+    "solo": "Y",
+    "status": "fluent",
+    "time": "10",
+    "dueDate": "2026-08-06"
+  },
+  "Find Minimum in Rotated Sorted Array": {
+    "history": [
+      {
+        "date": "2026-05-06",
+        "solo": "H",
+        "status": "revisit",
+        "time": "15"
+      },
+      {
+        "date": "2026-05-08",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "3"
+      },
+      {
+        "date": "2026-05-15",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "5"
+      },
+      {
+        "date": "2026-06-04",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "3"
+      }
+    ],
+    "lastDate": "2026-06-04",
+    "solo": "Y",
+    "status": "fluent",
+    "time": "3",
+    "dueDate": "2026-08-03"
+  },
+  "Search in Rotated Sorted Array": {
+    "history": [
+      {
+        "date": "2026-05-06",
+        "solo": "H",
+        "status": "revisit",
+        "time": "25"
+      },
+      {
+        "date": "2026-05-10",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "5"
+      },
+      {
+        "date": "2026-05-18",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "6"
+      },
+      {
+        "date": "2026-06-09",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "3"
+      },
+      {
+        "date": "2026-07-10",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "5"
+      }
+    ],
+    "notes": "The double binary search check is CRAZY",
+    "lastDate": "2026-07-10",
+    "solo": "Y",
+    "status": "fluent",
+    "time": "5",
+    "dueDate": "2026-08-09"
+  },
+  "Time Based Key-Value Store": {
+    "history": [
+      {
+        "date": "2026-05-07",
+        "solo": "N",
+        "status": "revisit",
+        "time": "22"
+      },
+      {
+        "date": "2026-05-10",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "11"
+      },
+      {
+        "date": "2026-05-18",
+        "solo": "H",
+        "status": "revisit",
+        "time": "15"
+      },
+      {
+        "date": "2026-05-20",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "6"
+      },
+      {
+        "date": "2026-05-27",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "5"
+      },
+      {
+        "date": "2026-06-19",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "6"
+      }
+    ],
+    "lastDate": "2026-06-19",
+    "solo": "Y",
+    "status": "fluent",
+    "time": "6",
+    "dueDate": "2026-08-18"
+  },
+  "Median of Two Sorted Arrays": {
+    "history": [
+      {
+        "date": "2026-05-14",
+        "solo": "N",
+        "status": "revisit",
+        "time": "20"
+      },
+      {
+        "date": "2026-05-15",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "5"
+      },
+      {
+        "date": "2026-05-23",
+        "solo": "H",
+        "status": "revisit",
+        "time": "5"
+      },
+      {
+        "date": "2026-05-25",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "5"
+      },
+      {
+        "date": "2026-06-01",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "5"
+      },
+      {
+        "date": "2026-06-23",
+        "solo": "H",
+        "status": "revisit",
+        "time": "6"
+      },
+      {
+        "date": "2026-06-25",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "3"
+      },
+      {
+        "date": "2026-07-01",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "3"
+      }
+    ],
+    "notes": "Just put the brute force in the bag bro",
+    "lastDate": "2026-07-01",
+    "solo": "Y",
+    "status": "fluent",
+    "time": "3",
+    "dueDate": "2026-07-22"
+  },
+  "Reverse Linked List": {
+    "history": [
+      {
+        "date": "2026-05-16",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "2"
+      },
+      {
+        "date": "2026-05-23",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "2"
+      },
+      {
+        "date": "2026-06-13",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "1"
+      }
+    ],
+    "lastDate": "2026-06-13",
+    "solo": "Y",
+    "status": "fluent",
+    "time": "1",
+    "dueDate": "2026-08-12"
+  },
+  "Merge Two Sorted Lists": {
+    "history": [
+      {
+        "date": "2026-05-17",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "20"
+      },
+      {
+        "date": "2026-05-24",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "2"
+      },
+      {
+        "date": "2026-06-15",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "2"
+      }
+    ],
+    "lastDate": "2026-06-15",
+    "solo": "Y",
+    "status": "fluent",
+    "time": "2",
+    "dueDate": "2026-08-14"
+  },
+  "Maximum Depth of Binary Tree": {
+    "history": [
+      {
+        "date": "2026-05-18",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "5"
+      },
+      {
+        "date": "2026-05-25",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "2"
+      },
+      {
+        "date": "2026-06-15",
+        "solo": "H",
+        "status": "revisit",
+        "time": "2"
+      },
+      {
+        "date": "2026-06-17",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "2"
+      },
+      {
+        "date": "2026-06-22",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "2"
+      },
+      {
+        "date": "2026-07-15",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "2"
+      }
+    ],
+    "lastDate": "2026-07-15",
+    "solo": "Y",
+    "status": "fluent",
+    "time": "2",
+    "dueDate": "2026-09-13"
+  },
+  "LRU Cache": {
+    "history": [
+      {
+        "date": "2026-05-19",
+        "solo": "N",
+        "status": "revisit",
+        "time": "15"
+      },
+      {
+        "date": "2026-05-20",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "8"
+      },
+      {
+        "date": "2026-05-27",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "7"
+      },
+      {
+        "date": "2026-06-19",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "10"
+      },
+      {
+        "date": "2026-07-26",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "5"
+      }
+    ],
+    "lastDate": "2026-07-26",
+    "solo": "Y",
+    "status": "fluent",
+    "time": "5",
+    "dueDate": "2026-08-25",
+    "notes": "Pop left when capacity is equal not after\n"
+  },
+  "Invert Binary Tree": {
+    "history": [
+      {
+        "date": "2026-05-20",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "5"
+      },
+      {
+        "date": "2026-05-27",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "2"
+      },
+      {
+        "date": "2026-06-18",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "5"
+      }
+    ],
+    "lastDate": "2026-06-18",
+    "solo": "Y",
+    "status": "fluent",
+    "time": "5",
+    "dueDate": "2026-08-17"
+  },
+  "Diameter of Binary Tree": {
+    "history": [
+      {
+        "date": "2026-05-20",
+        "solo": "N",
+        "status": "revisit",
+        "time": "12"
+      },
+      {
+        "date": "2026-05-21",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "2"
+      },
+      {
+        "date": "2026-05-27",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "2"
+      },
+      {
+        "date": "2026-06-18",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "2"
+      }
+    ],
+    "lastDate": "2026-06-18",
+    "solo": "Y",
+    "status": "fluent",
+    "time": "2",
+    "dueDate": "2026-08-17"
+  },
+  "Reorder List": {
+    "history": [
+      {
+        "date": "2026-05-20",
+        "solo": "N",
+        "status": "revisit",
+        "time": "10"
+      },
+      {
+        "date": "2026-05-21",
+        "solo": "H",
+        "status": "revisit",
+        "time": "10"
+      },
+      {
+        "date": "2026-05-23",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "10"
+      },
+      {
+        "date": "2026-05-31",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "5"
+      },
+      {
+        "date": "2026-06-22",
+        "solo": "H",
+        "status": "revisit",
+        "time": "15"
+      },
+      {
+        "date": "2026-06-24",
+        "solo": "H",
+        "status": "revisit",
+        "time": "4"
+      },
+      {
+        "date": "2026-06-26",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "2"
+      },
+      {
+        "date": "2026-07-05",
+        "solo": "H",
+        "status": "revisit",
+        "time": "7"
+      },
+      {
+        "date": "2026-07-08",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "5"
+      },
+      {
+        "date": "2026-07-19",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "6"
+      }
+    ],
+    "lastDate": "2026-07-19",
+    "solo": "Y",
+    "status": "fluent",
+    "time": "6",
+    "dueDate": "2026-08-09",
+    "notes": "Need to set slow.next to Null before reversing so loop ends"
+  },
+  "Balanced Binary Tree": {
+    "history": [
+      {
+        "date": "2026-05-24",
+        "solo": "H",
+        "status": "fluent",
+        "time": "10"
+      },
+      {
+        "date": "2026-05-31",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "3"
+      },
+      {
+        "date": "2026-06-21",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "4"
+      }
+    ],
+    "lastDate": "2026-06-21",
+    "solo": "Y",
+    "status": "fluent",
+    "time": "4",
+    "dueDate": "2026-08-20"
+  },
+  "Same Tree": {
+    "history": [
+      {
+        "date": "2026-05-24",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "5"
+      },
+      {
+        "date": "2026-05-31",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "1"
+      },
+      {
+        "date": "2026-06-21",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "1"
+      }
+    ],
+    "lastDate": "2026-06-21",
+    "solo": "Y",
+    "status": "fluent",
+    "time": "1",
+    "dueDate": "2026-08-20"
+  },
+  "Remove Nth Node From End of List": {
+    "history": [
+      {
+        "date": "2026-05-25",
+        "solo": "H",
+        "status": "revisit",
+        "time": "15"
+      },
+      {
+        "date": "2026-05-27",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "3"
+      },
+      {
+        "date": "2026-06-08",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "3"
+      },
+      {
+        "date": "2026-06-30",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "5"
+      }
+    ],
+    "notes": "first and second where first is n steps ahead and second is dummy pointing to head. ",
+    "lastDate": "2026-06-30",
+    "solo": "Y",
+    "status": "fluent",
+    "time": "5",
+    "dueDate": "2026-08-29"
+  },
+  "Subtree of Another Tree": {
+    "history": [
+      {
+        "date": "2026-05-26",
+        "solo": "N",
+        "status": "revisit",
+        "time": "15"
+      },
+      {
+        "date": "2026-05-27",
+        "solo": "H",
+        "status": "revisit",
+        "time": "15"
+      },
+      {
+        "date": "2026-05-30",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "7"
+      },
+      {
+        "date": "2026-06-07",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "5"
+      },
+      {
+        "date": "2026-06-28",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "5"
+      }
+    ],
+    "lastDate": "2026-06-28",
+    "solo": "Y",
+    "status": "fluent",
+    "time": "5",
+    "dueDate": "2026-08-27"
+  },
+  "Binary Tree Level Order Traversal": {
+    "history": [
+      {
+        "date": "2026-05-27",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "9"
+      },
+      {
+        "date": "2026-06-06",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "3"
+      },
+      {
+        "date": "2026-06-27",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "5"
+      }
+    ],
+    "lastDate": "2026-06-27",
+    "solo": "Y",
+    "status": "fluent",
+    "time": "5",
+    "dueDate": "2026-07-27"
+  },
+  "Copy List with Random Pointer": {
+    "history": [
+      {
+        "date": "2026-05-28",
+        "solo": "N",
+        "status": "revisit",
+        "time": "15"
+      },
+      {
+        "date": "2026-05-30",
+        "solo": "H",
+        "status": "revisit",
+        "time": "10"
+      },
+      {
+        "date": "2026-06-01",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "5"
+      },
+      {
+        "date": "2026-06-10",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "2"
+      },
+      {
+        "date": "2026-07-01",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "5"
+      }
+    ],
+    "notes": "Need to do two passes with a node map copy",
+    "lastDate": "2026-07-01",
+    "solo": "Y",
+    "status": "fluent",
+    "time": "5",
+    "dueDate": "2026-08-30"
+  },
+  "Add Two Numbers": {
+    "history": [
+      {
+        "date": "2026-06-02",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "15"
+      },
+      {
+        "date": "2026-06-10",
+        "solo": "N",
+        "status": "revisit",
+        "time": "15"
+      },
+      {
+        "date": "2026-06-11",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "3"
+      },
+      {
+        "date": "2026-06-20",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "4"
+      },
+      {
+        "date": "2026-07-11",
+        "solo": "H",
+        "status": "revisit",
+        "time": "9"
+      },
+      {
+        "date": "2026-07-15",
+        "solo": "H",
+        "status": "revisit",
+        "time": "9"
+      },
+      {
+        "date": "2026-07-17",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "5"
+      }
+    ],
+    "lastDate": "2026-07-17",
+    "solo": "Y",
+    "status": "fluent",
+    "time": "5",
+    "dueDate": "2026-07-24",
+    "notes": "get the carry and add it to the Vals with modulo and division"
+  },
+  "Merge k Sorted Lists": {
+    "history": [
+      {
+        "date": "2026-06-03",
+        "solo": "N",
+        "status": "revisit",
+        "time": "5"
+      },
+      {
+        "date": "2026-06-04",
+        "solo": "H",
+        "status": "revisit",
+        "time": "14"
+      },
+      {
+        "date": "2026-06-09",
+        "solo": "H",
+        "status": "revisit",
+        "time": "8"
+      },
+      {
+        "date": "2026-06-11",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "3"
+      },
+      {
+        "date": "2026-06-20",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "10"
+      },
+      {
+        "date": "2026-07-11",
+        "solo": "H",
+        "status": "revisit",
+        "time": "10"
+      },
+      {
+        "date": "2026-07-15",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "2"
+      }
+    ],
+    "lastDate": "2026-07-15",
+    "solo": "Y",
+    "status": "fluent",
+    "time": "2",
+    "dueDate": "2026-07-22"
+  },
+  "Reverse Nodes in k-Group": {
+    "history": [
+      {
+        "date": "2026-06-04",
+        "solo": "N",
+        "status": "revisit",
+        "time": "15"
+      },
+      {
+        "date": "2026-06-06",
+        "solo": "H",
+        "status": "revisit",
+        "time": "15"
+      },
+      {
+        "date": "2026-06-09",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "4"
+      },
+      {
+        "date": "2026-06-18",
+        "solo": "H",
+        "status": "revisit",
+        "time": "16"
+      },
+      {
+        "date": "2026-06-20",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "3"
+      },
+      {
+        "date": "2026-06-27",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "3"
+      }
+    ],
+    "lastDate": "2026-06-27",
+    "solo": "Y",
+    "status": "fluent",
+    "time": "3",
+    "dueDate": "2026-07-18"
+  },
+  "Binary Tree Right Side View": {
+    "history": [
+      {
+        "date": "2026-06-04",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "10"
+      },
+      {
+        "date": "2026-06-04",
+        "solo": "N",
+        "status": "revisit",
+        "time": "10"
+      },
+      {
+        "date": "2026-06-04",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "10"
+      },
+      {
+        "date": "2026-06-11",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "2"
+      },
+      {
+        "date": "2026-07-05",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "3"
+      }
+    ],
+    "lastDate": "2026-07-05",
+    "solo": "Y",
+    "status": "fluent",
+    "time": "3",
+    "dueDate": "2026-09-03"
+  },
+  "Lowest Common Ancestor of a BST": {
+    "history": [
+      {
+        "date": "2026-06-12",
+        "solo": "H",
+        "status": "revisit",
+        "time": ""
+      },
+      {
+        "date": "2026-06-14",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "5"
+      },
+      {
+        "date": "2026-06-23",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "5"
+      },
+      {
+        "date": "2026-07-15",
+        "solo": "H",
+        "status": "fluent",
+        "time": "5"
+      }
+    ],
+    "notes": "return recursive calls",
+    "lastDate": "2026-07-15",
+    "solo": "H",
+    "status": "fluent",
+    "time": "5",
+    "dueDate": "2026-09-13"
+  },
+  "Count Good Nodes": {
+    "history": [
+      {
+        "date": "2026-06-12",
+        "solo": "N",
+        "status": "revisit",
+        "time": "9"
+      },
+      {
+        "date": "2026-06-14",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "5"
+      },
+      {
+        "date": "2026-06-23",
+        "solo": "H",
+        "status": "revisit",
+        "time": "5"
+      },
+      {
+        "date": "2026-06-25",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "3"
+      },
+      {
+        "date": "2026-07-05",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "2"
+      }
+    ],
+    "lastDate": "2026-07-05",
+    "solo": "Y",
+    "status": "fluent",
+    "time": "2",
+    "dueDate": "2026-07-26",
+    "notes": "maxSoFar is initially the root val"
+  },
+  "Validate Binary Search Tree": {
+    "history": [
+      {
+        "date": "2026-06-16",
+        "solo": "N",
+        "status": "revisit",
+        "time": "15"
+      },
+      {
+        "date": "2026-06-17",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "3"
+      },
+      {
+        "date": "2026-06-24",
+        "solo": "H",
+        "status": "revisit",
+        "time": "3"
+      },
+      {
+        "date": "2026-06-26",
+        "solo": "H",
+        "status": "revisit",
+        "time": "3"
+      },
+      {
+        "date": "2026-06-29",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "3"
+      },
+      {
+        "date": "2026-07-07",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "3"
+      }
+    ],
+    "lastDate": "2026-07-07",
+    "solo": "Y",
+    "status": "fluent",
+    "time": "3",
+    "dueDate": "2026-07-28"
+  },
+  "Kth Smallest Element in a BST": {
+    "history": [
+      {
+        "date": "2026-06-21",
+        "solo": "N",
+        "status": "revisit",
+        "time": "5"
+      },
+      {
+        "date": "2026-06-22",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "2"
+      },
+      {
+        "date": "2026-07-01",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "2"
+      }
+    ],
+    "lastDate": "2026-07-01",
+    "solo": "Y",
+    "status": "fluent",
+    "time": "2",
+    "dueDate": "2026-07-22"
+  },
+  "Construct Binary Tree from Preorder and Inorder": {
+    "history": [
+      {
+        "date": "2026-06-23",
+        "solo": "N",
+        "status": "revisit",
+        "time": "10"
+      },
+      {
+        "date": "2026-06-24",
+        "solo": "H",
+        "status": "revisit",
+        "time": "10"
+      },
+      {
+        "date": "2026-06-26",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "5"
+      },
+      {
+        "date": "2026-07-05",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "5"
+      }
+    ],
+    "lastDate": "2026-07-05",
+    "solo": "Y",
+    "status": "fluent",
+    "time": "5",
+    "dueDate": "2026-07-26"
+  },
+  "Binary Tree Maximum Path Sum": {
+    "history": [
+      {
+        "date": "2026-06-25",
+        "solo": "N",
+        "status": "revisit",
+        "time": "10"
+      },
+      {
+        "date": "2026-06-26",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "5"
+      },
+      {
+        "date": "2026-07-07",
+        "solo": "H",
+        "status": "revisit",
+        "time": "7"
+      },
+      {
+        "date": "2026-07-10",
+        "solo": "H",
+        "status": "revisit",
+        "time": "5"
+      },
+      {
+        "date": "2026-07-12",
+        "solo": "Y",
+        "status": "revisit",
+        "time": "4"
+      },
+      {
+        "date": "2026-07-17",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "2"
+      }
+    ],
+    "lastDate": "2026-07-17",
+    "solo": "Y",
+    "status": "fluent",
+    "time": "2",
+    "dueDate": "2026-07-24"
+  },
+  "Serialize and Deserialize Binary Tree": {
+    "history": [
+      {
+        "date": "2026-06-27",
+        "solo": "N",
+        "status": "revisit",
+        "time": "15"
+      },
+      {
+        "date": "2026-06-29",
+        "solo": "H",
+        "status": "revisit",
+        "time": "15"
+      },
+      {
+        "date": "2026-07-01",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "8"
+      },
+      {
+        "date": "2026-07-08",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "5"
+      }
+    ],
+    "lastDate": "2026-07-08",
+    "solo": "Y",
+    "status": "fluent",
+    "time": "5",
+    "dueDate": "2026-07-29"
+  },
+  "Number of Islands": {
+    "history": [
+      {
+        "date": "2026-06-27",
+        "solo": "N",
+        "status": "revisit",
+        "time": "10"
+      },
+      {
+        "date": "2026-06-30",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "6"
+      },
+      {
+        "date": "2026-07-08",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "5"
+      }
+    ],
+    "lastDate": "2026-07-08",
+    "solo": "Y",
+    "status": "fluent",
+    "time": "5",
+    "dueDate": "2026-07-29"
+  },
+  "Clone Graph": {
+    "history": [
+      {
+        "date": "2026-07-08",
+        "solo": "N",
+        "status": "revisit",
+        "time": "13"
+      },
+      {
+        "date": "2026-07-10",
+        "solo": "H",
+        "status": "revisit",
+        "time": "5"
+      },
+      {
+        "date": "2026-07-12",
+        "solo": "H",
+        "status": "revisit",
+        "time": "5"
+      },
+      {
+        "date": "2026-07-15",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "5"
+      }
+    ],
+    "lastDate": "2026-07-15",
+    "solo": "Y",
+    "status": "fluent",
+    "time": "5",
+    "dueDate": "2026-07-22"
+  },
+  "Max Area of Island": {
+    "history": [
+      {
+        "date": "2026-07-08",
+        "solo": "H",
+        "status": "fluent",
+        "time": "15"
+      },
+      {
+        "date": "2026-07-15",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "7"
+      }
+    ],
+    "lastDate": "2026-07-15",
+    "solo": "Y",
+    "status": "fluent",
+    "time": "7",
+    "dueDate": "2026-08-05"
+  },
+  "Pacific Atlantic Water Flow": {
+    "history": [
+      {
+        "date": "2026-07-15",
+        "solo": "N",
+        "status": "revisit",
+        "time": "14"
+      },
+      {
+        "date": "2026-07-17",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "10"
+      },
+      {
+        "date": "2026-07-26",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "10"
+      }
+    ],
+    "lastDate": "2026-07-26",
+    "solo": "Y",
+    "status": "fluent",
+    "time": "10",
+    "dueDate": "2026-08-16"
+  },
+  "Rotting Oranges": {
+    "history": [
+      {
+        "date": "2026-07-15",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "5"
+      },
+      {
+        "date": "2026-07-26",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "5"
+      }
+    ],
+    "lastDate": "2026-07-26",
+    "solo": "Y",
+    "status": "fluent",
+    "time": "5",
+    "dueDate": "2026-08-16"
+  },
+  "Walls and Gates": {
+    "history": [
+      {
+        "date": "2026-07-15",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "5"
+      },
+      {
+        "date": "2026-07-26",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "5"
+      }
+    ],
+    "lastDate": "2026-07-26",
+    "solo": "Y",
+    "status": "fluent",
+    "time": "5",
+    "dueDate": "2026-08-16"
+  },
+  "Surrounded Regions": {
+    "history": [
+      {
+        "date": "2026-07-26",
+        "solo": "Y",
+        "status": "fluent",
+        "time": "10"
+      }
+    ],
+    "lastDate": "2026-07-26",
+    "solo": "Y",
+    "status": "fluent",
+    "time": "10",
+    "dueDate": "2026-08-02"
+  },
+  "Course Schedule": {
+    "history": [
+      {
+        "date": "2026-07-26",
+        "solo": "N",
+        "status": "revisit",
+        "time": "10"
+      }
+    ],
+    "lastDate": "2026-07-26",
+    "solo": "N",
+    "status": "revisit",
+    "time": "10",
+    "dueDate": "2026-07-27"
+  }
+}

@@ -3,9 +3,25 @@ const http = require('http');
 const fs = require('fs');
 const path = require('path');
 
-const PROGRESS_FILE = path.join(process.env.HOME, 'leetcode-progress.md');
-const ATTEMPTS_FILE = path.join(process.env.HOME, '.claude', 'learning', 'leetcode-attempts.json');
-const PORT = 3848;
+const DATA_DIR = process.env.DATA_DIR || null;
+const PROGRESS_FILE = DATA_DIR
+  ? path.join(DATA_DIR, 'leetcode-progress.md')
+  : path.join(process.env.HOME, 'leetcode-progress.md');
+const ATTEMPTS_FILE = DATA_DIR
+  ? path.join(DATA_DIR, 'leetcode-attempts.json')
+  : path.join(process.env.HOME, '.claude', 'learning', 'leetcode-attempts.json');
+const PORT = process.env.PORT || 3848;
+
+// On first deploy, seed data files from the bundled copies in the repo.
+if (DATA_DIR) {
+  fs.mkdirSync(DATA_DIR, { recursive: true });
+  for (const [seed, dest] of [
+    [path.join(__dirname, 'seed', 'leetcode-progress.md'), PROGRESS_FILE],
+    [path.join(__dirname, 'seed', 'leetcode-attempts.json'), ATTEMPTS_FILE],
+  ]) {
+    if (!fs.existsSync(dest) && fs.existsSync(seed)) fs.copyFileSync(seed, dest);
+  }
+}
 const TARGET_TIMES = { easy: 15, medium: 25, hard: 40 };
 // Each problem's contribution to weighted progress is its difficulty value.
 // Hard problems take longer to crack and lock in patterns; easy ones less so.
