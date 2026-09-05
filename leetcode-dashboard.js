@@ -1111,8 +1111,11 @@ function renderHtml(stats, modules, weakSpots, streak = { current: 0, best: 0, l
   .sched-bucket h4 { font-size: 11px; color: #999; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; margin: 0 0 8px; }
   .sched-count { background: #353946; color: #bbb; font-size: 10px; padding: 1px 6px; border-radius: 999px; margin-left: 4px; }
   .scheduled-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
-  .scheduled-list li { display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; font-size: 13px; padding: 4px 8px; border-radius: 4px; }
+  .scheduled-list li { font-size: 13px; padding: 4px 8px; border-radius: 4px; }
   .scheduled-list li:hover { background: rgba(255, 255, 255, 0.03); }
+  .sched-row { display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; }
+  .sched-row .notes-btn, .sched-row .edit-btn { margin-left: 0; }
+  .scheduled-list .notes-panel, .scheduled-list .edit-form { margin: 6px 0 4px; }
   .sched-when { font-variant-numeric: tabular-nums; color: #999; font-size: 11px; min-width: 56px; font-weight: 600; }
   .sched-when.due-now { color: #fbbf24; }
   .sched-bucket.sched-today h4 { color: #fbbf24; }
@@ -1497,12 +1500,43 @@ ${(() => {
         ${items.map(({ p, m, daysUntil: d }) => {
           const when = d < 0 ? `${-d}d overdue` : d === 0 ? 'today' : d === 1 ? 'tomorrow' : `in ${d}d`;
           const kind = p.status === 'fluent' ? 'review' : 'revisit';
+          const curTime = escapeHtml(p.time || '');
+          const curSolo = (p.solo || '').toUpperCase();
+          const curStatus = (p.status || '').toLowerCase();
+          const soloLabels = { '': '— not set', 'Y': 'Y · solved solo, no help', 'H': 'H · used a hint', 'N': 'N · read the solution' };
+          const statusLabels = { '': '— not attempted', 'fluent': 'fluent · could re-solve cold', 'revisit': 'revisit · slow, hinted, or barely passed' };
+          const soloOpts = Object.entries(soloLabels).map(([v, lbl]) => `<option value="${v}"${v === curSolo ? ' selected' : ''}>${lbl}</option>`).join('');
+          const statusOpts = Object.entries(statusLabels).map(([v, lbl]) => `<option value="${v}"${v === curStatus ? ' selected' : ''}>${lbl}</option>`).join('');
+          const hasNotes = !!(p.notes && p.notes.trim());
           return `<li>
-            <span class="sched-when${d <= 0 ? ' due-now' : ''}">${when}</span>
-            <a href="${leetcodeUrl(p.name)}" target="_blank" rel="noopener">${escapeHtml(p.name)}</a>${p.isKey ? ' <span class="key">key</span>' : ''}
-            <span class="diff-${p.diff}">${p.diff}</span>
-            <span class="sched-kind sched-kind-${kind}">${kind}</span>
-            <span class="sched-mod">M${m.id}</span>
+            <span class="sched-row">
+              <span class="sched-when${d <= 0 ? ' due-now' : ''}">${when}</span>
+              <a href="${leetcodeUrl(p.name)}" target="_blank" rel="noopener">${escapeHtml(p.name)}</a>${p.isKey ? ' <span class="key">key</span>' : ''}
+              <span class="diff-${p.diff}">${p.diff}</span>
+              <span class="sched-kind sched-kind-${kind}">${kind}</span>
+              <span class="sched-mod">M${m.id}</span>
+              <button class="notes-btn${hasNotes ? ' has-notes' : ''}" onclick="toggleNotes(this)" title="${hasNotes ? 'View/edit notes' : 'Add notes'}">notes${hasNotes ? ' •' : ''}</button>
+              <button class="edit-btn" onclick="toggleEdit(this)">edit</button>
+            </span>
+            <form class="notes-panel" hidden data-name="${escapeHtml(p.name)}" onsubmit="return saveNotes(this, event)">
+              <textarea name="notes" rows="3" placeholder="Key insight, gotcha, or pattern reminder for this problem…">${escapeHtml(p.notes || '')}</textarea>
+              <div class="notes-actions">
+                <button type="submit">save</button>
+                <button type="button" class="cancel" onclick="this.closest('form').hidden=true">cancel</button>
+              </div>
+            </form>
+            <form class="edit-form" hidden data-name="${escapeHtml(p.name)}" onsubmit="return saveEdit(this, event)">
+              <label title="Minutes from first read to working solution. Target: easy ≤15, medium ≤25, hard ≤40.">time (min) <input type="text" name="time" value="${curTime}" placeholder="e.g. 18" size="7"></label>
+              <label title="How much help did you need?">help <select name="solo">${soloOpts}</select></label>
+              <label title="fluent = you could re-solve cold tomorrow. revisit = needs another pass.">status <select name="status">${statusOpts}</select></label>
+              <button type="submit">save</button>
+              <button type="button" class="cancel" onclick="this.closest('form').hidden=true">cancel</button>
+              <div class="edit-hint">
+                <span><b>time:</b> target easy ≤15 · medium ≤25 · hard ≤40</span>
+                <span><b>help:</b> Y solo · H hint · N read solution</span>
+                <span><b>status:</b> fluent = re-solvable cold · revisit = needs another pass</span>
+              </div>
+            </form>
           </li>`;
         }).join('')}
       </ul>
