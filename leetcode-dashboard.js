@@ -2,6 +2,7 @@
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
+const crypto = require('crypto');
 
 const DATA_DIR = process.env.DATA_DIR || null;
 const PROGRESS_FILE = DATA_DIR
@@ -1842,14 +1843,51 @@ setInterval(() => {
 const AUTH_USER = process.env.DASHBOARD_USER;
 const AUTH_PASS = process.env.DASHBOARD_PASS;
 
+// Basic Auth issues a session cookie on success so the browser only has to
+// prompt for credentials once every SESSION_MAX_AGE, instead of on every request.
+const SESSION_COOKIE = 'lc_session';
+const SESSION_MAX_AGE = 90 * 24 * 60 * 60; // 90 days, in seconds
+
+function sessionSecret() {
+  return crypto.createHash('sha256').update(`${AUTH_USER}:${AUTH_PASS}`).digest();
+}
+function makeSessionToken() {
+  const expires = Date.now() + SESSION_MAX_AGE * 1000;
+  const sig = crypto.createHmac('sha256', sessionSecret()).update(String(expires)).digest('hex');
+  return `${expires}.${sig}`;
+}
+function isValidSessionToken(token) {
+  if (!token) return false;
+  const [expiresStr, sig] = token.split('.');
+  if (!expiresStr || !sig) return false;
+  if (Number(expiresStr) < Date.now()) return false;
+  const expected = crypto.createHmac('sha256', sessionSecret()).update(expiresStr).digest('hex');
+  const a = Buffer.from(sig), b = Buffer.from(expected);
+  return a.length === b.length && crypto.timingSafeEqual(a, b);
+}
+function getCookie(req, name) {
+  const header = req.headers.cookie;
+  if (!header) return null;
+  for (const part of header.split(';')) {
+    const idx = part.indexOf('=');
+    if (idx === -1) continue;
+    if (part.slice(0, idx).trim() === name) return part.slice(idx + 1).trim();
+  }
+  return null;
+}
+
 const server = http.createServer((req, res) => {
   if (req.url === '/healthz') { res.writeHead(200); return res.end('ok'); }
   if (AUTH_USER && AUTH_PASS) {
-    const [type, encoded = ''] = (req.headers['authorization'] || '').split(' ');
-    const [user, pass] = Buffer.from(encoded, 'base64').toString().split(':');
-    if (type !== 'Basic' || user !== AUTH_USER || pass !== AUTH_PASS) {
-      res.writeHead(401, { 'WWW-Authenticate': 'Basic realm="LeetCode Dashboard"' });
-      return res.end('Unauthorized');
+    if (!isValidSessionToken(getCookie(req, SESSION_COOKIE))) {
+      const [type, encoded = ''] = (req.headers['authorization'] || '').split(' ');
+      const [user, pass] = Buffer.from(encoded, 'base64').toString().split(':');
+      if (type !== 'Basic' || user !== AUTH_USER || pass !== AUTH_PASS) {
+        res.writeHead(401, { 'WWW-Authenticate': 'Basic realm="LeetCode Dashboard"' });
+        return res.end('Unauthorized');
+      }
+      const secure = req.headers['x-forwarded-proto'] === 'https' ? '; Secure' : '';
+      res.setHeader('Set-Cookie', `${SESSION_COOKIE}=${makeSessionToken()}; Max-Age=${SESSION_MAX_AGE}; Path=/; HttpOnly; SameSite=Lax${secure}`);
     }
   }
   if (req.url === '/favicon.svg' || req.url.startsWith('/favicon.svg?')) {
