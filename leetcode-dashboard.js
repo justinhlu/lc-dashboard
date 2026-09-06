@@ -1484,13 +1484,14 @@ ${(() => {
   if (scheduled.length === 0) return '';
   scheduled.sort((a, b) => a.daysUntil - b.daysUntil);
 
-  const visibleItems = scheduled.filter(item => item.daysUntil <= 3);
+  const SCHEDULE_LIMIT = 10;
+  const visibleItems = scheduled.slice(0, SCHEDULE_LIMIT);
   const hiddenCount = scheduled.length - visibleItems.length;
 
-  const buckets = { 'Today': [], 'Next 3 days': [] };
+  const buckets = { 'Today': [], 'Upcoming': [] };
   for (const item of visibleItems) {
     if (item.daysUntil <= 0) buckets['Today'].push(item);
-    else buckets['Next 3 days'].push(item);
+    else buckets['Upcoming'].push(item);
   }
 
   const renderBucket = (label, items, extraClass = '') => items.length === 0 ? '' : `
@@ -1547,8 +1548,8 @@ ${(() => {
       <summary class="sched-summary"><span class="sched-chevron">▸</span>Scheduled <span class="sched-total-count">${visibleItems.length}</span></summary>
       <div class="card scheduled-card">
         ${renderBucket('Today', buckets['Today'], 'sched-today')}
-        ${renderBucket('Next 3 days', buckets['Next 3 days'])}
-        ${hiddenCount ? `<p class="sched-later-note">+ ${hiddenCount} more scheduled beyond 3 days</p>` : ''}
+        ${renderBucket('Upcoming', buckets['Upcoming'])}
+        ${hiddenCount ? `<p class="sched-later-note">+ ${hiddenCount} more due later</p>` : ''}
       </div>
     </details>`;
 })()}
